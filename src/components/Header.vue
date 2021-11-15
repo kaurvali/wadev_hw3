@@ -5,7 +5,7 @@
         <a href="/"><img src="../assets/logo.png" alt="PostIt" /></a>
       </div>
       <div class="search">
-        <form method="POST" action="#">
+        <form>
           <input type="text" /><button>Search</button>
         </form>
         <Navigation />
@@ -64,6 +64,13 @@ export default {
         background-color: #42b983;
         color: white;
         font-weight: 600;
+      }
+      form > button:hover{
+        transition-duration: 0.5s;
+        border: 1px solid #42b983;
+        color: #42b983;
+        background-color: white;
+
       }
     }
 
