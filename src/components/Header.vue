@@ -15,19 +15,26 @@
         /></a>
       </div>
     </div>
+    <Navigation />
   </div>
 </template>
 
 <script>
+import Navigation from "@/components/Navigation.vue";
+
 export default {
-  name: "Navigation",
-  props: {},
+  name: "Header",
+  props: {
+  },
+  components: {
+    Navigation,
+  },
 };
 </script>
 
 <style scoped lang="scss">
 .wrapper {
-  padding: 15px;
+  padding: 10px;
   position: sticky;
   top: 0;
 
@@ -36,6 +43,7 @@ export default {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
 
     .search {
       width: 40%;
