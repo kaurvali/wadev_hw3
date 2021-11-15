@@ -12,7 +12,6 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 
-
 export default {
   name: "App",
   components: {
@@ -23,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
-*{
+* {
   margin: 0px;
 }
 #app {
@@ -33,7 +32,7 @@ export default {
   text-align: center;
 }
 
-#main{
+#main {
   padding-top: 25px;
   padding-bottom: 25px;
   background: #42b983;
