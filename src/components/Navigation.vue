@@ -18,7 +18,7 @@ a {
   color: #42b983;
   text-decoration: none;
 
-  &.router-link-active {
+  &.router-exact-link-active {
     color: black;
   }
 }
