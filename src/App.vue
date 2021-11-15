@@ -2,7 +2,9 @@
   <div id="app">
     <Header />
     <div id="main">
-      <div class="center-area"></div>
+      <div class="center-area">
+        <router-view />
+      </div>
     </div>
     <Footer />
   </div>
@@ -30,11 +32,18 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-}
 
-#main {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background: #42b983;
+  #main {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #42b983;
+
+    .center-area {
+      background: white;
+      width: 80%;
+      padding: 20px;
+      margin: auto;
+    }
+  }
 }
 </style>
