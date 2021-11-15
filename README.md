@@ -1,24 +1,5 @@
 # wadev_hw3
 
-## Project setup
-```
-npm install
-```
+LTAT.05.004 Web Application Development
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Kaur Vali (C05051), Markus Sulg (B59673), Lisa-Batricia Karu (B97060
