@@ -34,7 +34,6 @@ export default {
 <style scoped lang="scss">
 .wrapper {
   padding: 10px;
-  position: sticky;
   top: 0;
 
   .header {

@@ -37,12 +37,14 @@ export default {
     padding-top: 25px;
     padding-bottom: 25px;
     background: #42b983;
+    min-height: calc(100vh - 250px);
 
     .center-area {
       background: white;
-      width: 80%;
+      width: 60%;
       padding: 20px;
       margin: auto;
+      min-height: calc(100vh - 280px);
     }
   }
 }
