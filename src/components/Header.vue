@@ -24,8 +24,7 @@ import Navigation from "@/components/Navigation.vue";
 
 export default {
   name: "Header",
-  props: {
-  },
+  props: {},
   components: {
     Navigation,
   },

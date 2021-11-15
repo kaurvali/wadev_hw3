@@ -1,37 +1,34 @@
 <template>
-    <div class="footer">
-        <div class="logo">
-            <a href=index.html><img src="../assets/logo-120.png" id="footer_img" alt="logo"></a>
-        </div>
-        <div class="other">
-            <h3>This is postIt!</h3>
-        </div>
+  <div class="footer">
+    <div class="logo">
+      <a href="index.html"
+        ><img src="../assets/logo.png" id="footer_img" alt="logo"
+      /></a>
+      <h3>postIt!</h3>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'Footer'
+  name: "Footer",
 };
 </script>
 
 <style scoped lang="scss">
-.footer{
-    background-color: lightcyan;
-    padding: 30px;
+.footer {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 
-    display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-    align-items: center;
-
-    .logo img{
-        height: 50px;
-        width: auto;
+  .logo {
+    img {
+      height: 40px;
+      width: auto;
     }
-
-    .info h3{
-        color: black;
-    }
+  }
 }
 </style>
