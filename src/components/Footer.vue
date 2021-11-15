@@ -42,7 +42,7 @@ a {
   color: #42b983;
   text-decoration: none;
 
-  &.router-exact-link-active {
+  &.router-link-exact-active {
     color: black;
   }
 }

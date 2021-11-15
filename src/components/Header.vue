@@ -8,6 +8,7 @@
         <form method="POST" action="#">
           <input type="text" /><button>Search</button>
         </form>
+        <Navigation />
       </div>
       <div class="user-control">
         <a id="account"
@@ -15,7 +16,6 @@
         /></a>
       </div>
     </div>
-    <Navigation />
   </div>
 </template>
 
@@ -42,7 +42,6 @@ export default {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
 
     .search {
       width: 40%;

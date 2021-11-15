@@ -14,15 +14,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-a {
-  color: #42b983;
-  text-decoration: none;
+.nav {
+  padding-top: 10px;
+  a {
+    color: #42b983;
+    text-decoration: none;
 
-  &.router-exact-link-active {
+    &.router-link-exact-active {
+      color: black;
+    }
+  }
+  a:hover {
     color: black;
   }
-}
-a:hover {
-  color: black;
 }
 </style>
