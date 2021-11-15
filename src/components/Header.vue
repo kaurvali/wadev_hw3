@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="header">
       <div class="logo">
-        <a href="index.html"><img src="../assets/logo.png" alt="PostIt" /></a>
+        <a href="/"><img src="../assets/logo.png" alt="PostIt" /></a>
       </div>
       <div class="search">
         <form method="POST" action="#">
