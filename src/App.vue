@@ -41,7 +41,7 @@ export default {
 
     .center-area {
       background: white;
-      width: 60%;
+      width: 50%;
       padding: 20px;
       margin: auto;
       min-height: calc(100vh - 280px);

@@ -37,7 +37,7 @@ export default {
 .post {
   text-align: left;
   margin: 10px auto;
-  width: 80%;
+  width: 90%;
   height: fit-content;
   box-shadow: 0px 0px 9px gray;
 

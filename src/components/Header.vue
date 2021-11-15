@@ -70,7 +70,6 @@ export default {
         border: 1px solid #42b983;
         color: #42b983;
         background-color: white;
-
       }
     }
 
