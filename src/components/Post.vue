@@ -16,8 +16,8 @@
     </div>
 
     <div class="footer">
-      <button>Like</button>
-      <p>x people like this!</p>
+      <button v-on:click="likes += 1">Like</button>
+      <p>{{ likes }} people like this!</p>
     </div>
   </div>
 </template>
@@ -29,6 +29,7 @@ export default {
     date: { required: true },
     text: { required: true },
     img: { required: false },
+    likes: { required: true }
   },
 };
 </script>

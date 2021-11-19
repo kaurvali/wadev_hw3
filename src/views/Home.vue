@@ -6,7 +6,9 @@
 			:date="post.date"
 			:text="post.text"
 			:img="post.img"
+			:likes="post.likes"
 		/>
+		<button v-on:click="ResetLikes">Reset likes</button>
 	</div>
 </template>
 
@@ -22,5 +24,13 @@ export default {
 			return this.$store.state.posts;
 		},
 	},
+	methods: {
+		ResetLikes: function() {
+			this.$store.commit("ResetLikes")
+			//this.$store.state.posts.forEach(element => {
+			//	element.likes = 0;
+			//});
+		}
+	}
 };
 </script>
