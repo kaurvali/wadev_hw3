@@ -30,7 +30,7 @@ export default {
 			//this.$store.state.posts.forEach(element => {
 			//	element.likes = 0;
 			//});
-		}
-	}
+		},
+	},
 };
 </script>

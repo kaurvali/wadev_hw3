@@ -16,7 +16,7 @@
     </div>
 
     <div class="footer">
-      <button v-on:click="likes += 1">Like</button>
+      <button v-on:click="IncreaseLikes">Like</button>
       <p>{{ likes }} people like this!</p>
     </div>
   </div>
@@ -31,6 +31,11 @@ export default {
     img: { required: false },
     likes: { required: true }
   },
+  methods: {
+    IncreaseLikes: function() {
+			this.$store.commit("IncreaseLikes")
+		}
+  }
 };
 </script>
 
