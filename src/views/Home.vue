@@ -27,9 +27,6 @@ export default {
   methods: {
     ResetLikes: function () {
       this.$store.commit("ResetLikes");
-      //this.$store.state.posts.forEach(element => {
-      //	element.likes = 0;
-      //});
     },
   },
 };

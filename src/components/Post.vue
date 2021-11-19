@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     IncreaseLikes: function() {
-			this.$store.commit("IncreaseLikes")
+			this.$store.commit("IncreaseLikes", this.$vnode.key)
 		}
   }
 };
