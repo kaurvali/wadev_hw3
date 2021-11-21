@@ -29,13 +29,13 @@ export default {
     date: { required: true },
     text: { required: true },
     img: { required: false },
-    likes: { required: true }
+    likes: { required: true },
   },
   methods: {
-    IncreaseLikes: function() {
-			this.$store.commit("IncreaseLikes", this.$vnode.key)
-		}
-  }
+    IncreaseLikes: function () {
+      this.$store.commit("IncreaseLikes", this.$vnode.key);
+    },
+  },
 };
 </script>
 
@@ -64,7 +64,7 @@ export default {
     flex-direction: row;
     align-items: center;
 
-    p{
+    p {
       padding-left: 5px;
       font-size: 14pt;
     }
