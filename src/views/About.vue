@@ -2,7 +2,7 @@
   <div class="about">
     <h1>About us!</h1>
     <p>The great team of postIt developers behind this fun page:</p>
-     <table>
+     <table class="center">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -58,7 +58,16 @@ td {
 }
 table{
   border: 2px solid black;
+  
 }
+tbody{
+  align-items: center;
+}
+ table.center {
+    width:70%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
   
 </style>
 
